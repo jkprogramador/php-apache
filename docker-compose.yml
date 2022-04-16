@@ -13,6 +13,9 @@ services:
       - php-apache
     volumes:
       - ./www:/var/www/html
+      - ./config/apache2.conf:/etc/apache2/apache2.conf
+      - ./config/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
+
     env_file:
       - .env
 

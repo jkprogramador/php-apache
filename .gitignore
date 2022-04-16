@@ -5,3 +5,5 @@
 .phpunit.result.cache
 /.idea
 /.vscode
+www/writable
+www/tests/_output

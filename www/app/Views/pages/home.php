@@ -1,0 +1,1 @@
+<p>This is the homepage for the Pages section.</p>
